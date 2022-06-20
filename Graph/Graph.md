@@ -98,7 +98,3 @@ A $cyclic\ graph$ is a $directed\ graph$ with at least one $cycle$.
 A $cycle$ is a path along $directed\ edges$ from a $node$ to itself.
 A $directed\ acyclic\ graph$, commonly known as $DAG$ is a graph without cycle. 
 A $tree$ is a type of $directed\ acyclic\ graph$.
-
-### Learn more:
-
-1. [Graph Representation](GraphRepresentation.md)
