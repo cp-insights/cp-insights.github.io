@@ -1,5 +1,3 @@
-
-
 # Graph
 
 <script type="text/javascript" async

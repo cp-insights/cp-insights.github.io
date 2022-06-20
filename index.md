@@ -1,5 +1,3 @@
-
-
 # Competitve programming insights
 
 ### Index
