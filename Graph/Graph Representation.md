@@ -56,3 +56,7 @@ for(WeightedEdge edge: edges) {
   adjecencyMatrix[edge.u][edge.v] = edge.w;
 }
 ```
+
+### Learn more:
+
+1. [Graph Representation](/Graph/Graph%20Representation.md)
