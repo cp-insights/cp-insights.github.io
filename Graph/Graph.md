@@ -5,10 +5,6 @@ use_math: true
 
 # Graph
 
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 A $Graph$ is a data structure composed of $nodes$ and $edges$. 
 A $Node$ is a finite set of vertices. 
 A $Edge$ is an ordered pair of vertices 
