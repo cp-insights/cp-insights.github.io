@@ -9,4 +9,5 @@ use_math: true
 
 1. [Graph](Graph/Graph.md)
     * [Graph Representation](Graph/GraphRepresentation.md)
+    * [Breadth First Search](Graph/BreadthFirstTraversal.md)
 
