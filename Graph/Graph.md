@@ -16,6 +16,7 @@ struct Edge {
   int u, v;
   Edge(int u, int v): u(u), v(v) {}
 };
+
 struct Graph {
   int nodeCount;
   vector<Edge> edges;
@@ -30,26 +31,32 @@ struct Graph {
 A $directed\ graph$ is a graph which contains $directed\ edges$. 
 A $directed\ edge$ is an ordered pair
 $(u, v)$ which represents an edge in the direction from $u$ to $v$.
+
 ```cpp
 graph.addEdge({u, v});
 ```
+
 An $undirected\ graph$ is a graph which contains $undirected\ edges$.
 An $undirected\ edge$ is a pair
 $(u, v)$ which represents an edge in from $u$ to $v$ and $v$ to $u$. 
 The $undirected\ edges\ (u, v)$ 
 and $(v, u)$ are identical.
+
 ```cpp
 graph.addEdge({u, v});
 graph.addEdge({v, u});
 ```
+
 A $weighted\ graph$ is a graph with $weighted\ edges$.
 A $weighted\ edge$ is a triplet 
 $(u, v, w)$ which represents an edge from $u$ to $v$ having a weight/cost/value of $w$.
+
 ```cpp
 struct WeightedEdge {
   int u, v, w;
   WeightedEdge(int u, int v, int w): u(u), v(v), w(w) {}
 };
+
 struct WeightedGraph {
   int nodeCount;
   vector<WeightedEdge> edges;
@@ -70,10 +77,12 @@ struct LabelledNode {
   int value; // can be of any type
   LabelledNode(int id, int value): id(id), value(value) {}
 };
+
 struct LabelledEdge {
   LabelledNode u, v;
   LabelledEdge(LabelledNode u, LabelledNode v): u(u), v(v) {}
 };
+
 struct NodeLabelledGraph {
   int nodeCount;
   vector<LabelledNode> edges;
