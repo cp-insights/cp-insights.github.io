@@ -4,7 +4,8 @@ url: "https://cp-insights.github.io"
 markdown: kramdown
 highlighter: rouge
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-mathjax: true
+kramdown:
+  mathjax: true
 plugins:
   - jekyll-include-cache
   - jekyll-latex
