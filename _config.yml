@@ -1,6 +1,6 @@
 name: cp-insights
 description: Competitive Programming Insights
 url: "https://cp-insights.github.io"
-theme: jekyll-theme-hacker
+theme: minimal-mistakes-jekyll
 markdown: kramdown
 highlighter: rouge
