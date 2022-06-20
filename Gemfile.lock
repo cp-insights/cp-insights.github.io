@@ -125,6 +125,8 @@ GEM
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-latex (1.1.0)
+      polytexnic (~> 1.6)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -197,6 +199,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.3.1)
     kramdown (2.3.2)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -211,6 +214,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.0)
+    msgpack (1.2.10)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     octokit (4.25.0)
@@ -218,7 +222,14 @@ GEM
       sawyer (~> 0.9)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    polytexnic (1.7.3)
+      json (~> 2.3.0)
+      kramdown (>= 2.0, < 3.0)
+      msgpack (~> 1.2.0)
+      nokogiri (>= 1.6.0, < 2.0)
+      pygments.rb (~> 2.1)
     public_suffix (4.0.7)
+    pygments.rb (2.3.0)
     racc (1.6.0)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -257,6 +268,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-include-cache
+  jekyll-latex
 
 BUNDLED WITH
    2.3.16
