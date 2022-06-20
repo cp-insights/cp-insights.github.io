@@ -13,7 +13,7 @@ of the form $(u, v)$.
 A $directed\ graph$ is a graph which contains $directed\ edges$. 
 A $directed\ edge$ is an ordered pair
 $(u, v)$ which represents an edge in the direction from $u$ to $v$.
-An $undirected\ graph$ is a graph which contains %undirected\ edges$.
+An $undirected\ graph$ is a graph which contains $undirected\ edges$.
 An $undirected\ edge$ is a pair
 $(u, v)$ which represents an edge in from $u$ to $v$ and $v$ to $u$. 
 The $undirected\ edges\ (u, v)$ 
