@@ -1,11 +1,5 @@
-name: cp-insights
-description: Competitive Programming Insights
-url: "https://cp-insights.github.io"
-markdown: kramdown
-highlighter: rouge
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-kramdown:
-  mathjax: true
-plugins:
-  - jekyll-include-cache
-  - jekyll-latex
+title: Hacker theme
+description: Hacker is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
