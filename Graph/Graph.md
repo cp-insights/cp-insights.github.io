@@ -101,4 +101,4 @@ A $tree$ is a type of $directed\ acyclic\ graph$.
 
 ### Learn more:
 
-1. [Graph Representation](/Graph/Graph%20Representation.md)
+1. [Graph Representation](/Graph/GraphRepresentation.md)
