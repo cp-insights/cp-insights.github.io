@@ -7,6 +7,6 @@ use_math: true
 
 ### Index
 
-* [Graph](Graph/Graph.md)
-  1. [Graph Representation](Graph/GraphRepresentation.md)
+1. [Graph](Graph/Graph.md)
+    * [Graph Representation](Graph/GraphRepresentation.md)
 
