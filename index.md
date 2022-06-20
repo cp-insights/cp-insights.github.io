@@ -1,3 +1,8 @@
+---
+layout: default
+use_math: true
+---
+
 # Competitve programming insights
 
 ### Index

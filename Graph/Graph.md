@@ -1,3 +1,8 @@
+---
+layout: default
+use_math: true
+---
+
 # Graph
 
 <script type="text/javascript" async
