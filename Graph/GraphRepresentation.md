@@ -42,7 +42,8 @@ for(Edge edge: edges) {
 An $Adjecency\ Matrix$ of an unweighted graph is a matrix of size $N \times N$ (where $N$ is the node count) in which each value at index $(u, v)$ is $0$ or $1$, where $0$ represents the absence of an edge and $1$ represents the presence of an edge.
 
 ```cpp
-int adjecencyMatrix[nodeCount][nodeCount] = {{0}}; // or use memset
+int adjecencyMatrix[nodeCount][nodeCount]; 
+memset(adjecencyMatrix, 0, nodeCount * nodeCount * sizeof(int));
 for(Edge edge: edges) {
   adjecencyMatrix[edge.u][edge.v] = 1;
 }
@@ -51,7 +52,8 @@ for(Edge edge: edges) {
 An $Adjecency\ Matrix$ of a weighted graph is a matrix of size $N \times N$ (where $N$ is the node count) in which each value at index $(u, v)$ is $0$ or $w$, where $0$ represents the absence of an edge and $w$ represents the weight of the edge.
 
 ```cpp
-int adjecencyMatrix[nodeCount][nodeCount] = {{0}}; // or use memset
+int adjecencyMatrix[nodeCount][nodeCount]; 
+memset(adjecencyMatrix, 0, nodeCount * nodeCount * sizeof(int));
 for(WeightedEdge edge: edges) {
   adjecencyMatrix[edge.u][edge.v] = edge.w;
 }
